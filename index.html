@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Logout Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="containner" id="sign up">
+        <h1 class="form-title"> Register</h1>
+        <form action="" method="post">
+            <div class="input-group">
+                <i class="fas fa-user"></i>
+                <input type="text" name="Fname" id="Fname" placeholder="First Name" required>
+                <label for="Fname">First Name</label>
+            </div>
+
+            <div class="input-group">
+                <i class="fas fa-user"></i>
+                <input type="text" name="Lname" id="Lname" placeholder="Last Name" required>
+                <label for="Fname">Last Name</label>
+           </div>
+
+           <div class="input-group">
+             <i class="fas fa-envelope"></i>
+             <input type="email" name="email" id="email" placeholder="E-mail" required>
+             <label for="email">E-mail</label>
+           </div>
+
+            <div class="input-group">
+             <i class="fas fa-lock"></i>
+             <input type="passward" id="passward" placeholder="passward" required>
+             <label for="passward">passward</label>
+           </div>
+          <input type="submit" class="btn" value="sign up" name="sign up">   
+        </form>
+       <p class="or"> 
+         ---------------- OR-----------------    
+       </p> 
+       <div class="icons">
+        <i class="fab fa-google"></i>
+         <i class="fab fa-facebook"></i>
+       </div>
+       <div class="links">
+        <p>Already Have Account ?</p>
+        <button id="signinButton">Sign in</button>
+       </div>
+    </div>
+
+        <div class="containner" id="sign in">
+        <h1 class="form-title">Sign In</h1>
+        <form action="" method="post">
+          
+           <div class="input-group">
+             <i class="fas fa-envelope"></i>
+             <input type="email" name="email" id="email" placeholder="E-mail" required>
+             <label for="email">E-mail</label>
+           </div>
+
+            <div class="input-group">
+             <i class="fas fa-lock"></i>
+             <input type="passward" id="passward" placeholder="passward" required>
+             <label for="passward">passward</label>
+           </div>
+           <p class="Recover">
+            <a href="#">Recover Passeard </a>
+           </p>
+          <input type="submit" class="btn" value="sign in" name="sign in">   
+        </form>
+       <p class="or"> 
+         ---------------- OR-----------------    
+       </p> 
+       <div class="icons">
+        <i class="fab fa-google"></i>
+         <i class="fab fa-facebook"></i>
+       </div>
+       <div class="links">
+        <p>Don't have Account Yet?</p>
+        <button id="signupButton">Sign up</button>
+       </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
